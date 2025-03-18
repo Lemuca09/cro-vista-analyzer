@@ -10,7 +10,6 @@ import ExperimentList from '@/components/ExperimentList';
 import AnalysisOverviewComponent from '@/components/AnalysisOverview';
 import { analyzeAllHeatmaps } from '@/utils/heatmapAnalysis';
 import { Button } from '@/components/ui/button';
-
 import {  ChevronRight, ArrowRight, BrainCircuit, BarChart3, LineChart, PieChart, Table  } from 'lucide-react';
 
 const Index = () => {
@@ -113,7 +112,7 @@ const Index = () => {
           ].map((feature, index) => (
             <div 
               key={index}
-              className="glass-panel rounded-xl p-4 text-center flex flex-col items-center justify-center"
+              className="glass-panel rounded-xl p-4 text-center flex flex-col items-center justify-center shadow-lg"
               style={{ animationDelay: `${index * 0.1}s` }}
             >
               <div className="p-3 bg-primary/10 text-primary rounded-full mb-3">
@@ -131,7 +130,7 @@ const Index = () => {
 
          
         {/* Main content */}
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
           <div className="space-y-8">
             <h2 className='mt-3 flex justify-right text-1xl md:text-1xl lg:text-4xl font-bold tracking-tight mb-1'>Input your data</h2>
             {/* Heatmap uploaders */}
@@ -143,6 +142,7 @@ const Index = () => {
                     initial={{ opacity: 0, y: 20 }}
                     animate={{ opacity: 1, y: 0 }}
                     transition={{ duration: 0.4, delay: 0.1 }}
+                    className='shadow-lg rounded-xl bg-white'
                   >
                     <HeatmapUploader 
                       heatmap={heatmap}
