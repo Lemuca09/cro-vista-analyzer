@@ -2,7 +2,7 @@
 import React, { useState, useRef } from 'react';
 import { toast } from "sonner";
 import { HeatmapFile, HeatmapType } from '@/utils/types';
-import { Upload, X, FileImage } from 'lucide-react';
+import { Cloud ,Upload, X, FileImage } from 'lucide-react';
 import { cn } from '@/lib/utils';
 
 interface HeatmapUploaderProps {
@@ -118,9 +118,13 @@ const HeatmapUploader: React.FC<HeatmapUploaderProps> = ({ heatmap, onUpdate }) 
             accept="image/*"
             onChange={handleFileChange}
           />
-          <div className="w-12 h-12 rounded-full bg-slate-100 flex items-center justify-center mb-3">
+          {/* <div className="w-12 h-12 rounded-full bg-slate-100 flex items-center justify-center mb-3">
             <Upload className="h-5 w-5 text-slate-500" />
+          </div> */} {/* Icone na caixa de upload */}
+          <div className="animate-float">
+            <Upload className="h-16 w-16 text-primary mx-auto mb-4" />
           </div>
+
           <p className="text-sm font-medium text-slate-700">
             Drag & drop or click to upload
           </p>
