@@ -60,7 +60,7 @@ Build **cro-vista-analyzer** from the source and install dependencies:
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/uncadu/cro-vista-analyzer
+git clone <GIT-REPO-HTTPS-URL>
 ```
 
 2. Navigate to the project directory:
@@ -72,5 +72,10 @@ cd cro-vista-analyzer
 3. Install the dependencies:
    
 ```bash
-npm install
+npm i
+```
+4. Run the tool dependencies:
+   
+```bash
+npm run dev
 ```
