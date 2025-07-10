@@ -20,8 +20,6 @@ _Transform Data into Actionable Insights. Instantly._
 - [Getting Started](#getting-started)
   - [Prerequisites](#prerequisites)
   - [Installation](#installation)
-- [Usage](#usage)
-- [Testing](#testing)
 
 ---
 
