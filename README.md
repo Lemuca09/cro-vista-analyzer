@@ -1,69 +1,76 @@
-# Welcome to your Lovable project
+# CRO-VISTA-ANALYZER  
+_Transform Data into Actionable Insights. Instantly._
 
-## Project info
+[![Version](https://img.shields.io/badge/version-1.0.0-blue.svg)](https://semver.org)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-**URL**: https://lovable.dev/projects/5ccee5a2-a137-4cd5-b684-f0219cfc037c
+> Built with the tools and technologies:
 
-## How can I edit this code?
+![Vite](https://img.shields.io/badge/-Vite-646CFF?logo=vite&logoColor=white)
+![Vue](https://img.shields.io/badge/-Vue-42b883?logo=vue.js&logoColor=white)
+![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?logo=typescript&logoColor=white)
+![Supabase](https://img.shields.io/badge/-Supabase-3ECF8E?logo=supabase&logoColor=white)
+![TailwindCSS](https://img.shields.io/badge/-TailwindCSS-06B6D4?logo=tailwindcss&logoColor=white)
 
-There are several ways of editing your application.
+---
 
-**Use Lovable**
+## 📚 Table of Contents
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/5ccee5a2-a137-4cd5-b684-f0219cfc037c) and start prompting.
+- [Overview](#overview)
+- [Getting Started](#getting-started)
+  - [Prerequisites](#prerequisites)
+  - [Installation](#installation)
+- [Usage](#usage)
+- [Testing](#testing)
 
-Changes made via Lovable will be committed automatically to this repo.
+---
 
-**Use your preferred IDE**
+## 📖 Overview
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+**cro-vista-analyzer** is an all-in-one developer tool designed to facilitate heatmap analysis, user experience optimization, and scalable UI development. It combines AI-driven insights with a robust component architecture built on Vite, TypeScript, and Tailwind CSS, enabling developers to craft consistent and interactive web applications effortlessly.
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+### 🚀 Why use cro-vista-analyzer?
 
-Follow these steps:
+This project aims to streamline UX analysis and frontend development. The core features include:
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+- 🧩 **Component Architecture**: Ensures UI consistency and maintainability across the codebase.
+- 🔥 **Heatmap Analysis**: Integrates AI-powered insights for real-time user behavior visualization.
+- 🎨 **Reusable UI Components**: Offers accessible, styled elements like buttons, modals, charts, and more.
+- 🔗 **Backend Integration**: Seamlessly connects with Supabase for data management and real-time updates.
+- ⚙️ **Modern Build Setup**: Utilizes Vite, TypeScript, and Tailwind CSS for efficient development and deployment.
+- 📈 **Scalable & Customizable**: Supports large-scale projects with flexible configurations and plugins.
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+---
 
-# Step 3: Install the necessary dependencies.
-npm i
+## 🚀 Getting Started
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
+### ✅ Prerequisites
+
+This project requires the following dependencies:
+
+- **Programming Language**: TypeScript
+- **Package Manager**: npm
+
+---
+
+### 📦 Installation
+
+Build **cro-vista-analyzer** from the source and install dependencies:
+
+1. Clone the repository:
+
+```bash
+git clone https://github.com/uncadu/cro-vista-analyzer
 ```
 
-**Edit a file directly in GitHub**
+2. Navigate to the project directory:
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+```bash
+cd cro-vista-analyzer
+```
 
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with .
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/5ccee5a2-a137-4cd5-b684-f0219cfc037c) and click on Share -> Publish.
-
-## I want to use a custom domain - is that possible?
-
-We don't support custom domains (yet). If you want to deploy your project under your own domain then we recommend using Netlify. Visit our docs for more details: [Custom domains](https://docs.lovable.dev/tips-tricks/custom-domain/)
+3. Install the dependencies:
+   
+```bash
+npm install
+```
